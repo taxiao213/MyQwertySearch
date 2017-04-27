@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pressed">#AAAAAA</color>
+    <color name="normal">#fff</color>
+    <color name="search_pressed">#AAAAAA</color>
+    <color name="search_normal">#EDEEF0</color>
+    <color name="search_text">#38ADFF</color>
+
+    <color name="oranige_ed905d">#ed905d</color>
+
+    <color name="login_btn_pre">#38caff</color>
+    <color name="login_btn">#38ADFF</color>
+
+    <color name="main_color">#067EB5</color>
+
+    <color name="white_trans_95">#0cffffff</color>
+    <color name="white_trans_90">#19ffffff</color>
+    <color name="whter_trans_85">#21ffffff</color>
+    <color name="white_trans_80">#33ffffff</color>
+    <color name="white_trans_75">#3fffffff</color>
+    <color name="white_trans_70">#4cffffff</color>
+    <color name="white_trans_65">#59ffffff</color>
+    <color name="white_trans_60">#66ffffff</color>
+    <color name="white_trans_55">#72ffffff</color>
+    <color name="white_trans_50">#7fffffff</color>
+    <color name="white_trans_45">#8cffffff</color>
+    <color name="white_trans_40">#99ffffff</color>
+    <color name="white_trans_35">#a5ffffff</color>
+    <color name="white_trans_30">#b2ffffff</color>
+    <color name="white_trans_25">#bfffffff</color>
+    <color name="white_trans_20">#ccffffff</color>
+    <color name="white_trans_15">#d8ffffff</color>
+    <color name="white_trans_10">#e5ffffff</color>
+    <color name="white_trans_5">#f2ffffff</color>
+    <color name="white">#fff</color>
+
+    <color name="transportant">#00000000</color>
+
+    <color name="black_trans_95">#0c000000</color>
+    <color name="black_trans_90">#19000000</color>
+    <color name="black_trans_85">#21000000</color>
+    <color name="black_trans_80">#33000000</color>
+    <color name="black_trans_75">#3f000000</color>
+    <color name="black_trans_70">#4c000000</color>
+    <color name="black_trans_65">#59000000</color>
+    <color name="black_trans_60">#66000000</color>
+    <color name="black_trans_55">#72000000</color>
+    <color name="black_trans_50">#7f000000</color>
+    <color name="black_trans_45">#8c000000</color>
+    <color name="black_trans_40">#99000000</color>
+    <color name="black_trans_35">#a5000000</color>
+    <color name="black_trans_30">#b2000000</color>
+    <color name="black_trans_25">#bf000000</color>
+    <color name="black_trans_20">#cc000000</color>
+    <color name="black_trans_15">#d8000000</color>
+    <color name="black_trans_10">#e5000000</color>
+    <color name="black_trans_5">#f2000000</color>
+
+
+
+    <color name="red">#f00</color>
+    <color name="red_64">#ff6464</color>
+    <color name="red_delete_back">#fd1543</color>
+
+    <color name="green_card_back">#66ba8e</color>
+    <color name="grey_dc">#dcdcdc</color>
+    <color name="grey_ab">#ababab</color>
+    <color name="grey_64">#646464</color>
+    <color name="grey_ef">#efefef</color>
+    <color name="grey_f7">#f7f7f7</color>
+</resources>

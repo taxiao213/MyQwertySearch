@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time">
+        <item>分钟前</item>
+        <item>小时前</item>
+        <item>天前</item>
+    </string-array>
+
+    <!--自定义标题栏-->
+    <declare-styleable name="Title_bar">
+        <attr name="titleText" format="string|reference"/>
+        <attr name="titleTextSize" format="dimension|reference"/>
+        <attr name="titleColor" format="color|reference"/>
+
+        <attr name="leftBtnText" format="string|reference"/>
+        <attr name="leftBtnTextSize" format="dimension|reference"/>
+        <attr name="leftBtnImage" format="reference"/>
+        <attr name="leftTextColor" format="color|reference"/>
+        <attr name="left_padding_left" format="dimension|reference"/>
+        <attr name="left_padding_right" format="dimension|reference"/>
+        <attr name="left_drawable_padding" format="dimension|reference"/>
+
+        <attr name="rightBtnText" format="string|reference"/>
+        <attr name="rightBtnTextSize" format="dimension|reference"/>
+        <attr name="rightTExtColor" format="color|reference"/>
+        <attr name="rightBtnImage" format="reference"/>
+        <attr name="right_padding_left" format="dimension|reference"/>
+        <attr name="right_padding_right" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaterDropView">
+        <attr name="max_circle_radius" format="dimension"/>
+        <attr name="min_circle_radius" format="dimension"/>
+        <attr name="waterdrop_color" format="color"/>
+        <attr name="topcircle_x" format="dimension"/>
+        <attr name="topcircle_y" format="dimension"/>
+        <attr name="bottomcircle_x" format="dimension"/>
+        <attr name="bottomcircle_y" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgress">
+        <attr name="circular_progress_color" format="color"/>
+        <attr name="circular_progress_size" format="enum">
+            <enum name="Small" value="0"/>
+            <enum name="Normal" value="1"/>
+            <enum name="Large" value="2"/>
+        </attr>
+        <attr name="circular_progress_border_width" format="dimension"/>
+        <attr name="circular_progress_indeterminate" format="boolean"/>
+        <attr name="circular_progress_max" format="integer"/>
+        <attr name="circular_progress_duration" format="integer"/>
+    </declare-styleable>
+</resources>

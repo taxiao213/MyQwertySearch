@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hr.han.ui.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_select"/>
+
+    <RadioGroup
+        android:id="@+id/main_bottom_select"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_ab">
+        <RadioButton
+            android:id="@+id/main_message_rb"
+            style="@style/Main_RB_style"
+            android:text="@string/message"
+            android:drawableTop="@drawable/mian_bottom_message_select"/>
+        <RadioButton
+            android:id="@+id/main_work_rb"
+            style="@style/Main_RB_style"
+            android:text="@string/work"
+            android:drawableTop="@drawable/mian_bottom_work_select"/>
+        <RadioButton
+            android:id="@+id/main_contacts_rb"
+            style="@style/Main_RB_style"
+            android:text="@string/contacts"
+            android:drawableTop="@drawable/mian_bottom_contact_select"/>
+        <RadioButton
+            android:id="@+id/main_my_rb"
+            style="@style/Main_RB_style"
+            android:text="@string/my"
+            android:drawableTop="@drawable/mian_bottom_mine_select"/>
+    </RadioGroup>
+</RelativeLayout>

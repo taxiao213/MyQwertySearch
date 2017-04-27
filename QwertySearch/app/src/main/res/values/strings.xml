@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">通讯录</string>
+
+    <string name="message">消息</string>
+    <string name="work">工作</string>
+    <string name="contacts">联系人</string>
+    <string name="my">我的</string>
+
+    <!-- 我的 -->
+
+    <string name="officephone">办公电话是否可见</string>
+    <string name="cellphone">手机号是否可见</string>
+    <string name="email">邮箱是否可见</string>
+    <string name="passwd">修改密码</string>
+    <string name="setiing">设置</string>
+
+    <string name="old_password">原密码:</string>
+    <string name="new_password">新密码:</string>
+    <string name="new_password_sign">6-20位数字、字母或英文符号</string>
+    <string name="resume_new_password">请确认:</string>
+    <string name="display_password">显示密码</string>
+    <string name="twice_password">两次输入不一致,请确认后重新输入！</string>
+    <string name="password_style">密码格式不正确</string>
+    <string name="password_type">密码不能为空！</string>
+    <string name="old_passwd">原密码输入有误！</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_press_again_quit">再按一次退出</string>
+    <string name="hospital_within_notice">院内通知</string>
+    <string name="hospital_within_bulletin">院内公告</string>
+    <string name="hospital_within_news">院内新闻</string>
+    <string name="health_preface">医疗前言</string>
+    <string name="hospital_noticeAndBulletin">通知公告</string>
+    <string name="opinion_box">意见箱</string>
+    <string name="edit">编辑</string>
+    <string name="opinion_edit">意见编辑</string>
+    <string name="send">发送</string>
+    <string name="edit_content">输入内容</string>
+    <string name="delete">删除</string>
+    <string name="all_select">全选</string>
+    <string name="complit">编辑</string>
+    <string name="cancle_select_all">取消全选</string>
+    <string name="save_to_draft">保存到草稿</string>
+    <string name="office">办公系统</string>
+    <string name="login">登录</string>
+    <string name="user_name">用户名</string>
+    <string name="passward">密码</string>
+    <string name="opinion_detial">意见详情</string>
+    <string name="cancle">取消</string>
+    <string name="ok">确定</string>
+    <string name="send_code_again">重新发送</string>
+
+    <!--h-->
+    <string name="pop_add_friend">添加好友</string>
+    <string name="pop_chat_group">发起群聊</string>
+    <string name="pop_email">邮件</string>
+    <string name="search_contact">联系人</string>
+    <string name="search_group">群组</string>
+    <string name="search_message">聊天记录</string>
+    <string name="search_email">邮件</string>
+    <string name="loading">努力加载中.........</string>
+    <string name="load_err">加载失败</string>
+    <string name="load_again">加载失败\n点击重新加载</string>
+    <string name="no_net">网络未连接\n请检查网络设置</string>
+    <string name="draft_box">草稿箱</string>
+    <string name="send_box">已发送</string>
+    <string name="recive_box">收件箱</string>
+    <string name="search_more">查看更多联系人</string>
+    <string name="search_result">搜索结果</string>
+    <string name="search_result_more">更多结果</string>
+    <string name="nohavedata_clickadd">没有数据\n点击添加新意见</string>
+    <string name="select_send_opin">选择发送</string>
+
+
+</resources>

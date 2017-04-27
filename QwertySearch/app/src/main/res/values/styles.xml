@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="ImageTranslucentTheme" parent="AppBaseTheme_Light"/>
+
+    <style name="ImageOnlyNaviTranslucentTheme" parent="ImageTranslucentTheme"/>
+
+    <style name="ImageOnlyStatusTranslucentTheme" parent="ImageTranslucentTheme"/>
+
+    <style name="ImageSplashTheme" parent="AppBaseTheme_Light">
+        <item name="android:windowBackground">@drawable/login_background</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Main_RB_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/main_rb_text_select</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:background">@drawable/toolbar_click_selector</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">45dp</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="pop_iv">
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">45dp</item>
+
+    </style>
+
+    <style name="pop_tv">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/black_trans_20</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="pop_ll">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/click_selector</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>

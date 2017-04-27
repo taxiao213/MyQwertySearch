@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="ImageTranslucentTheme" parent="AppBaseTheme_Light">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="ImageOnlyNaviTranslucentTheme" parent="ImageTranslucentTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="ImageOnlyStatusTranslucentTheme" parent="ImageTranslucentTheme">
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="TransActivityChange" parent="ImageTranslucentTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="LoginInputTheme" parent="ImageTranslucentTheme">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorHint">@color/white_trans_30</item>
+        <item name="colorControlNormal">@color/white_trans_30</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
